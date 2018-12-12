@@ -1,0 +1,1339 @@
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" 
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T04:41:47+10:00)
+Maven home: /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3
+Java version: 1.8.0_192, vendor: Oracle Corporation, runtime: /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre
+Default locale: en_AU, platform encoding: UTF-8
+OS name: "mac os x", version: "10.14.1", arch: "x86_64", family: "mac"
+[DEBUG]   Included /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar
+[DEBUG] Populating class realm maven.ext
+[DEBUG]   Included /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar
+[INFO] [jenkins-event-spy] Jenkins Maven Event Spy is disabled
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < maven.ext
+[DEBUG]   Imported: javax.annotation.security.* < maven.ext
+[DEBUG]   Imported: javax.enterprise.inject.* < maven.ext
+[DEBUG]   Imported: javax.enterprise.util.* < maven.ext
+[DEBUG]   Imported: javax.inject.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.artifact < maven.ext
+[DEBUG]   Imported: org.apache.maven.classrealm < maven.ext
+[DEBUG]   Imported: org.apache.maven.cli < maven.ext
+[DEBUG]   Imported: org.apache.maven.configuration < maven.ext
+[DEBUG]   Imported: org.apache.maven.exception < maven.ext
+[DEBUG]   Imported: org.apache.maven.execution < maven.ext
+[DEBUG]   Imported: org.apache.maven.execution.scope < maven.ext
+[DEBUG]   Imported: org.apache.maven.lifecycle < maven.ext
+[DEBUG]   Imported: org.apache.maven.model < maven.ext
+[DEBUG]   Imported: org.apache.maven.monitor < maven.ext
+[DEBUG]   Imported: org.apache.maven.plugin < maven.ext
+[DEBUG]   Imported: org.apache.maven.profiles < maven.ext
+[DEBUG]   Imported: org.apache.maven.project < maven.ext
+[DEBUG]   Imported: org.apache.maven.reporting < maven.ext
+[DEBUG]   Imported: org.apache.maven.repository < maven.ext
+[DEBUG]   Imported: org.apache.maven.rtinfo < maven.ext
+[DEBUG]   Imported: org.apache.maven.settings < maven.ext
+[DEBUG]   Imported: org.apache.maven.toolchain < maven.ext
+[DEBUG]   Imported: org.apache.maven.usability < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.events < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.observers < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.repository < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.resource < maven.ext
+[DEBUG]   Imported: org.codehaus.classworlds < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.* < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.component < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.configuration < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.container < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.context < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.logging < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.personality < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.* < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.artifact < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.collection < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.deployment < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.graph < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.impl < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.installation < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.metadata < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.repository < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.resolution < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.spi < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.transfer < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.version < maven.ext
+[DEBUG]   Imported: org.fusesource.jansi.* < maven.ext
+[DEBUG]   Imported: org.slf4j.* < maven.ext
+[DEBUG]   Imported: org.slf4j.helpers.* < maven.ext
+[DEBUG]   Imported: org.slf4j.spi.* < maven.ext
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf/settings.xml
+[DEBUG] Reading user settings from /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml
+[DEBUG] Reading global toolchains from /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/olamy/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo
+[INFO] Scanning for projects...
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1185754, ConflictMarker.markTime=704830, ConflictMarker.nodeCount=83, ConflictIdSorter.graphTime=827000, ConflictIdSorter.topsortTime=638627, ConflictIdSorter.conflictIdCount=32, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=13701449, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=473827296, DefaultDependencyCollector.transformTime=20287459}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:3.1.2-SNAPSHOT:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:3.3.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.7.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.1.0:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.18:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG] Created new class realm extension>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT
+[DEBUG] Importing foreign packages into class realm extension>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:3.1.2-SNAPSHOT
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:3.3.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.7.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.1.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.18
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG] Extension realms for project org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:jar:1.0-SNAPSHOT: [ClassRealm[extension>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@70dea4e]]
+[DEBUG] Created new class realm project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Populating class realm project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------< org.apache.maven.plugins:maven-jar-plugin-test-mjar-183 >-------
+[INFO] Building maven-jar-plugin-test-mjar-183 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom (7.1 kB at 210 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-resources-plugin/3.0.2/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom (10 kB at 1.7 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-plugins/30/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar (32 kB at 2.6 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-resources-plugin/3.0.2/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom (9.7 kB at 513 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom (12 kB at 3.0 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-plugins/28/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/27/maven-parent-27.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/27/maven-parent-27.pom (42 kB at 8.3 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/27/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/27/maven-parent-27.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/17/apache-17.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/17/apache-17.pom (16 kB at 2.7 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/17/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/17/apache-17.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar (50 kB at 2.8 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-compiler-plugin/3.5.1/maven-compiler-plugin-3.5.1.jar.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom (5.6 kB at 1.4 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom (18 kB at 3.1 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire/2.19.1/surefire-2.19.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/26/maven-parent-26.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/26/maven-parent-26.pom (41 kB at 8.2 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/26/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/26/maven-parent-26.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar (38 kB at 4.8 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar.lastUpdated
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [local.central (file:///Users/olamy/.m2/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [local.central (file:///Users/olamy/.m2/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=331415, ConflictMarker.markTime=58612, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=3909, ConflictIdSorter.topsortTime=6548, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=21638, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=11742, DefaultDependencyCollector.transformTime=454473}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:jar:1.0-SNAPSHOT
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=46048, ConflictMarker.markTime=57965, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=17355, ConflictIdSorter.topsortTime=12268, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=168986, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=28516005, DefaultDependencyCollector.transformTime=321490}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG]   (f) reportDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom (748 B at 62 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-component-annotations/1.6/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom (3.8 kB at 471 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-containers/1.6/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-containers/1.6/plexus-containers-1.6.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom (22 kB at 5.4 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus/3.3.2/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus/3.3.2/plexus-3.3.2.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom (4.1 kB at 1.0 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.24/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom (5.7 kB at 1.9 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-filtering/3.1.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom (5.6 kB at 1.9 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-utils/3.0.0/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom (4.9 kB at 1.2 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-components/21/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/25/maven-parent-25.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/25/maven-parent-25.pom (38 kB at 9.6 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/25/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/25/maven-parent-25.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/15/apache-15.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/15/apache-15.pom (15 kB at 5.1 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/15/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/15/apache-15.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.pom (10 kB at 3.4 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-io/commons-io/2.4/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-io/commons-io/2.4/commons-io-2.4.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/commons/commons-parent/25/commons-parent-25.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/commons/commons-parent/25/commons-parent-25.pom (48 kB at 12 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/commons/commons-parent/25/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/commons/commons-parent/25/commons-parent-25.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom (1.5 kB at 513 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom (3.2 kB at 1.1 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/sonatype/plexus/plexus-build-api/0.0.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/sonatype/spice/spice-parent/15/spice-parent-15.pom (8.4 kB at 1.4 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/sonatype/spice/spice-parent/15/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/sonatype/spice/spice-parent/15/spice-parent-15.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom (2.6 kB at 138 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.24/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom.lastUpdated
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=282098, ConflictMarker.markTime=185649, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=136618, ConflictIdSorter.topsortTime=30980, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1337663, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=238594323, DefaultDependencyCollector.transformTime=2005621}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar (51 kB at 1.8 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar (4.3 kB at 142 kB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar (8.5 kB at 2.1 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (247 kB at 7.1 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar (155 kB at 4.6 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar (79 kB at 11 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-component-annotations/1.6/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-component-annotations/1.6/plexus-component-annotations-1.6.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.24/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-filtering/3.1.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-utils/3.0.0/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/sonatype/plexus/plexus-build-api/0.0.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.24/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar.lastUpdated
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Imported:  < project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@127d7908
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.JAVA_TOOL_OPTIONS=-Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" , java.vendor=Oracle Corporation, env.RUN_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect, env.JENKINS_SERVER_COOKIE=durable-188d236adfe68a2dfac64236da6f0d27, org.jenkinsci.plugins.pipeline.maven.reportsFolder=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.MVN_CMD_DIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, env.SECURITYSESSIONID=186a7, env.DOCKER_HOST=unix:///var/run/docker.sock, os.name=Mac OS X, sun.boot.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/resources.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/rt.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/sunrsasign.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jsse.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jce.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/charsets.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jfr.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/classes, env.TMPDIR=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, env.JOB_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/display/redirect, env.PWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, env.LANG=en_AU.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_192-b12, env.MAVEN_CONFIG=--batch-mode --show-version , env.BUILD_DISPLAY_NAME=#18, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.lbCL8mCwr7/Render, user.name=olamy, env.GOOGLE_APPLICATION_CREDENTIALS=/Users/olamy/dev/sources/open-sources/jetty/jetty9-work-30268db71eb2.json, maven.build.version=Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T04:41:47+10:00), env.USER=olamy, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0xF, env.JAVA_MAIN_CLASS_20221=org.codehaus.plexus.classworlds.launcher.Launcher, maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo, env.PATH=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/bin:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/trunk/bin:/usr/local/bin:/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home//bin:/usr/local/bin:/opt/subversion/bin:/Users/olamy/softs/apache-ant-1.8.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/share/npm/bin:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/mvnsh-master/bin/mvnsh:/Users/olamy/softs/j2objc-2.0/, user.language=en, sun.boot.library.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib, classworlds.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/bin/m2.conf, env.XPC_FLAGS=0x0, java.version=1.8.0_192, user.timezone=, project.baseUri=file:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/, env.NODE_NAME=master, maven.build.timestamp=2018-12-12T06:56:51Z, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/endorsed, env.MVN_CMD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/mvn, sun.cpu.isalist=, env.JOB_BASE_NAME=test-invoker-reports, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf, java.class.version=52.0, user.country=AU, env.BUILD_NUMBER=18, java.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre, java.vm.info=mixed mode, env.LOGNAME=olamy, os.version=10.14.1, env.JAVA_MAIN_CLASS_57936=Main, env.HUDSON_COOKIE=25e22a4c-f14c-486a-bc95-7fa7b09fe68f, maven.compiler.target=1.7, env.TERM_PROGRAM_VERSION=421.1, env.GCLOUD_PATH=/Users/olamy/softs/google-cloud-sdk, path.separator=:, java.vm.version=25.192-b12, maven.ext.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect?page=changes, env.JOB_NAME=test-invoker-reports, env.JAVA_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.HUDSON_URL=http://localhost:8080/, env.BUILD_TAG=jenkins-test-invoker-reports-18, user.home=/Users/olamy, env.JENKINS_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.JOB_URL=http://localhost:8080/job/test-invoker-reports/, env.OLDPWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, java.specification.vendor=Oracle Corporation, env.JAVA_MAIN_CLASS_21166=org.codehaus.plexus.classworlds.launcher.Launcher, env.M2_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, env.TERM_PROGRAM=Apple_Terminal, java.vendor.url=http://java.oracle.com/, java.library.path=/Users/olamy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., library.jansi.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/lib/jansi-native, env.SVN_EDITOR=vi, env.JENKINS_NODE_COOKIE=9eadad58-4473-4d5c-8496-000e5d9c4899, env.HUDSON_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.MAVEN_CMD_LINE_ARGS=--batch-mode --show-version  -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, gopherProxySet=false, java.vm.vendor=Oracle Corporation, env.HUDSON_SERVER_COOKIE=178742daec4cbfd8, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, java.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/boot/plexus-classworlds-2.5.2.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, env.TERM_SESSION_ID=0BB23795-6D03-4859-8345-D86F41FC55B9, env.MAVEN_TERMINATE_CMD=on, env.EXECUTOR_NUMBER=0, env.JENKINS_MAVEN_AGENT_DISABLED=true, maven.version=3.6.0, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/Users/olamy, java.awt.headless=true, env.ANT_HOME=/Users/olamy/softs/apache-ant-1.8.2, env.BUILD_URL=http://localhost:8080/job/test-invoker-reports/18/, java.io.tmpdir=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, maven.multiModuleProjectDirectory=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.aUN0Mea7nX/Listeners, env.MAVEN_OPTS=  -Xms1g -Xmx1g -Djava.awt.headless=true -Djava.awt.headless=true -Xmx768m -Xms768m -client -XX:+HeapDumpOnOutOfMemoryError, maven.compiler.source=1.7, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, os.arch=x86_64, java.ext.dirs=/Users/olamy/Library/Java/Extensions:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.BUILD_ID=18, env.MAVEN_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, user.dir=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, line.separator=
+, env.JENKINS_URL=http://localhost:8080/, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, env.WORKSPACE=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2, env.STAGE_NAME=Build / Test - maven 3.6, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, env.NODE_LABELS=master}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom (3.3 kB at 1.1 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-toolchain/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom (1.9 kB at 617 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting-api/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom (1.4 kB at 481 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting/2.2.1/maven-reporting-2.2.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom (2.0 kB at 107 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/doxia/doxia-sink-api/1.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom (15 kB at 2.5 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/doxia/doxia/1.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom (1.6 kB at 315 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/doxia/doxia-logging-api/1.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom (3.5 kB at 869 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom (1.9 kB at 271 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-containers/1.0-alpha-30/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-containers/1.0-alpha-30/plexus-containers-1.0-alpha-30.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom (3.2 kB at 248 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (8.0 kB at 2.0 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus/1.0.10/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.pom (8.0 kB at 2.0 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-cli/commons-cli/1.2/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-cli/commons-cli/1.2/commons-cli-1.2.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/commons/commons-parent/11/commons-parent-11.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/commons/commons-parent/11/commons-parent-11.pom (25 kB at 3.1 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/commons/commons-parent/11/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/commons/commons-parent/11/commons-parent-11.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom (891 B at 297 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-api/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom (4.9 kB at 1.6 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom (2.3 kB at 777 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-components/4.0/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-components/4.0/plexus-components-4.0.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom (3.8 kB at 1.3 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.22/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom (711 B at 237 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-manager/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom (792 B at 264 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-javac/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom (1.4 kB at 461 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compilers/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom.lastUpdated
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=624426, ConflictMarker.markTime=421238, ConflictMarker.nodeCount=188, ConflictIdSorter.graphTime=278967, ConflictIdSorter.topsortTime=69746, ConflictIdSorter.conflictIdCount=51, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1679732, ConflictResolver.conflictItemCount=73, DefaultDependencyCollector.collectTime=421659354, DefaultDependencyCollector.transformTime=3101372}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.5.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.7:runtime
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar (38 kB at 7.5 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar (222 kB at 32 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar (26 kB at 5.1 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar (4.7 kB at 1.2 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar (185 kB at 26 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar (19 kB at 3.9 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/2.0.4/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-toolchain/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-io/commons-io/2.4/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-io/commons-io/2.4/commons-io-2.4.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-api/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-api/2.7/plexus-compiler-api-2.7.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-manager/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-javac/2.7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-compiler-javac/2.7/plexus-compiler-javac-2.7.jar.lastUpdated
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1
+[DEBUG]   Imported:  < project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.5.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.7
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183
+[DEBUG]   (f) buildDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target
+[DEBUG]   (f) classpathElements = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/pom.xml
+[DEBUG]   (f) projectArtifact = org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@127d7908
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java]
+[DEBUG] Classpath: [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes]
+[DEBUG] Output directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG] Adding /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-sources/annotations to compile source roots:
+  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java
+[DEBUG] New compile source roots:
+  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java
+  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java/A.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG] Source roots:
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes -classpath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes: -sourcepath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/main/java:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-sources/annotations: -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-sources/annotations -g -nowarn -target 1.7 -source 1.7
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@127d7908
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.JAVA_TOOL_OPTIONS=-Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" , java.vendor=Oracle Corporation, env.RUN_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect, env.JENKINS_SERVER_COOKIE=durable-188d236adfe68a2dfac64236da6f0d27, org.jenkinsci.plugins.pipeline.maven.reportsFolder=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.MVN_CMD_DIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, env.SECURITYSESSIONID=186a7, env.DOCKER_HOST=unix:///var/run/docker.sock, os.name=Mac OS X, sun.boot.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/resources.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/rt.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/sunrsasign.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jsse.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jce.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/charsets.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jfr.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/classes, env.TMPDIR=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, env.JOB_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/display/redirect, env.PWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, env.LANG=en_AU.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_192-b12, env.MAVEN_CONFIG=--batch-mode --show-version , env.BUILD_DISPLAY_NAME=#18, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.lbCL8mCwr7/Render, user.name=olamy, env.GOOGLE_APPLICATION_CREDENTIALS=/Users/olamy/dev/sources/open-sources/jetty/jetty9-work-30268db71eb2.json, maven.build.version=Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T04:41:47+10:00), env.USER=olamy, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0xF, env.JAVA_MAIN_CLASS_20221=org.codehaus.plexus.classworlds.launcher.Launcher, maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo, env.PATH=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/bin:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/trunk/bin:/usr/local/bin:/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home//bin:/usr/local/bin:/opt/subversion/bin:/Users/olamy/softs/apache-ant-1.8.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/share/npm/bin:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/mvnsh-master/bin/mvnsh:/Users/olamy/softs/j2objc-2.0/, user.language=en, sun.boot.library.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib, classworlds.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/bin/m2.conf, env.XPC_FLAGS=0x0, java.version=1.8.0_192, user.timezone=, project.baseUri=file:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/, env.NODE_NAME=master, maven.build.timestamp=2018-12-12T06:56:52Z, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/endorsed, env.MVN_CMD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/mvn, sun.cpu.isalist=, env.JOB_BASE_NAME=test-invoker-reports, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf, java.class.version=52.0, user.country=AU, env.BUILD_NUMBER=18, java.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre, java.vm.info=mixed mode, env.LOGNAME=olamy, os.version=10.14.1, env.JAVA_MAIN_CLASS_57936=Main, env.HUDSON_COOKIE=25e22a4c-f14c-486a-bc95-7fa7b09fe68f, maven.compiler.target=1.7, env.TERM_PROGRAM_VERSION=421.1, env.GCLOUD_PATH=/Users/olamy/softs/google-cloud-sdk, path.separator=:, java.vm.version=25.192-b12, maven.ext.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect?page=changes, env.JOB_NAME=test-invoker-reports, env.JAVA_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.HUDSON_URL=http://localhost:8080/, env.BUILD_TAG=jenkins-test-invoker-reports-18, user.home=/Users/olamy, env.JENKINS_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.JOB_URL=http://localhost:8080/job/test-invoker-reports/, env.OLDPWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, java.specification.vendor=Oracle Corporation, env.JAVA_MAIN_CLASS_21166=org.codehaus.plexus.classworlds.launcher.Launcher, env.M2_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, env.TERM_PROGRAM=Apple_Terminal, java.vendor.url=http://java.oracle.com/, java.library.path=/Users/olamy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., library.jansi.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/lib/jansi-native, env.SVN_EDITOR=vi, env.JENKINS_NODE_COOKIE=9eadad58-4473-4d5c-8496-000e5d9c4899, env.HUDSON_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.MAVEN_CMD_LINE_ARGS=--batch-mode --show-version  -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, gopherProxySet=false, java.vm.vendor=Oracle Corporation, env.HUDSON_SERVER_COOKIE=178742daec4cbfd8, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, java.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/boot/plexus-classworlds-2.5.2.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, env.TERM_SESSION_ID=0BB23795-6D03-4859-8345-D86F41FC55B9, env.MAVEN_TERMINATE_CMD=on, env.EXECUTOR_NUMBER=0, env.JENKINS_MAVEN_AGENT_DISABLED=true, maven.version=3.6.0, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.os.patch.level=unknown, sun.cpu.endian=little, env.HOME=/Users/olamy, java.awt.headless=true, env.ANT_HOME=/Users/olamy/softs/apache-ant-1.8.2, env.BUILD_URL=http://localhost:8080/job/test-invoker-reports/18/, java.io.tmpdir=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, maven.multiModuleProjectDirectory=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.aUN0Mea7nX/Listeners, env.MAVEN_OPTS=  -Xms1g -Xmx1g -Djava.awt.headless=true -Djava.awt.headless=true -Xmx768m -Xms768m -client -XX:+HeapDumpOnOutOfMemoryError, maven.compiler.source=1.7, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, os.arch=x86_64, java.ext.dirs=/Users/olamy/Library/Java/Extensions:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, env.BUILD_ID=18, env.MAVEN_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, user.dir=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, line.separator=
+, env.JENKINS_URL=http://localhost:8080/, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, env.WORKSPACE=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2, env.STAGE_NAME=Build / Test - maven 3.6, java.specification.version=1.8, env.MAVEN_PROJECTBASEDIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183, env.NODE_LABELS=master}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.5.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183
+[DEBUG]   (f) buildDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target
+[DEBUG]   (f) classpathElements = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/test-classes, /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/test-classes
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@127d7908
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom (7.3 kB at 1.8 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/maven-surefire-common/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.pom (1.6 kB at 543 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools/3.3/maven-plugin-tools-3.3.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools/3.3/maven-plugin-tools-3.3.pom (13 kB at 4.2 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugin-tools/maven-plugin-tools/3.3/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugin-tools/maven-plugin-tools/3.3/maven-plugin-tools-3.3.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/24/maven-parent-24.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/24/maven-parent-24.pom (38 kB at 9.5 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/24/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/24/maven-parent-24.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/14/apache-14.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/14/apache-14.pom (15 kB at 4.9 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/14/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/14/apache-14.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom (3.5 kB at 878 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom (3.2 kB at 1.1 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-booter/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/junit/junit/4.12/junit-4.12.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/junit/junit/4.12/junit-4.12.pom (24 kB at 7.9 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/4.12/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/4.12/junit-4.12.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom (2.4 kB at 791 kB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting-api/3.0/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom (9.3 kB at 1.9 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-components/15/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/16/maven-parent-16.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-parent/16/maven-parent-16.pom (23 kB at 5.8 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/16/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-parent/16/maven-parent-16.pom.lastUpdated
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/apache/7/apache-7.pom (14 kB at 4.7 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/7/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/apache/7/apache-7.pom.lastUpdated
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=366195, ConflictMarker.markTime=112008, ConflictMarker.nodeCount=114, ConflictIdSorter.graphTime=721067, ConflictIdSorter.topsortTime=44950, ConflictIdSorter.conflictIdCount=34, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1532025, ConflictResolver.conflictItemCount=80, DefaultDependencyCollector.collectTime=143881734, DefaultDependencyCollector.transformTime=2801442}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.19.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.19.1:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.19.1:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:4.12:compile
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]          org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]             org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.19.1:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for file:///Users/olamy/.m2/repository
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for file:///Users/olamy/.m2/repository
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar (12 kB at 4.1 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar (46 kB at 11 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar (80 kB at 20 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar (293 kB at 29 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar (39 kB at 9.8 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar (228 kB at 29 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/junit/junit/4.12/junit-4.12.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar (49 kB at 12 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar (68 kB at 4.0 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar (156 kB at 8.7 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar (35 kB at 1.8 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar (30 kB at 1.4 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/junit/junit/4.12/junit-4.12.jar (315 kB at 8.5 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar (332 kB at 9.5 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar (51 kB at 1.3 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar (88 kB at 18 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar (8.8 kB at 1.8 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar (22 kB at 4.4 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar (178 kB at 22 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar (22 kB at 3.2 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar (17 kB at 2.1 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar (11 kB at 2.2 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar (13 kB at 3.3 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar (26 kB at 5.1 MB/s)
+[INFO] Downloading from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar (10 kB at 3.5 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar (14 kB at 2.8 MB/s)
+[INFO] Downloaded from local.central: file:///Users/olamy/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar (196 kB at 33 MB/s)
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-api/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/maven-surefire-common/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-booter/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-artifact/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/1.5.15/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-descriptor/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/4.12/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/4.12/junit-4.12.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-project/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-settings/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-profile/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-artifact-manager/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/backport-util-concurrent/backport-util-concurrent/3.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-registry/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.11/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-model/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-core/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/slf4j/slf4j-jdk14/1.5.6/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/slf4j/slf4j-api/1.5.6/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/slf4j/jcl-over-slf4j/1.5.6/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting-api/3.0/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-repository-metadata/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-error-diagnostics/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-monitor/2.2.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.19.1/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar.lastUpdated
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/_remote.repositories
+[DEBUG] Writing tracking file /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar.lastUpdated
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1
+[DEBUG]   Imported:  < project>org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.19.1
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.19.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.19.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.19.1
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.19.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.19.1:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.19.1:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.19.1:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit=junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14=org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.19.1:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.3:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.19.1:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: local.central
+      url: file:///Users/olamy/.m2/repository
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (f) shutdown = testset
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) testClassesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183
+[DEBUG]   (s) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@127d7908
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2-SNAPSHOT:jar (default-jar) @ maven-jar-plugin-test-mjar-183 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:jar from plugin realm ClassRealm[extension>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/classes
+[DEBUG]   (f) finalName = maven-jar-plugin-test-mjar-183-1.0-SNAPSHOT
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-183:1.0-SNAPSHOT @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@127d7908
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Destination /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/maven-jar-plugin-test-mjar-183-1.0-SNAPSHOT.jar not found.)
+[INFO] Building jar: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/target/maven-jar-plugin-test-mjar-183-1.0-SNAPSHOT.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding entry A.class
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/org.apache.maven.plugins/
+[DEBUG] adding directory META-INF/maven/org.apache.maven.plugins/maven-jar-plugin-test-mjar-183/
+[DEBUG] adding entry META-INF/maven/org.apache.maven.plugins/maven-jar-plugin-test-mjar-183/pom.xml
+[DEBUG] adding entry META-INF/maven/org.apache.maven.plugins/maven-jar-plugin-test-mjar-183/pom.properties
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.635 s
+[INFO] Finished at: 2018-12-12T16:56:53+10:00
+[INFO] ------------------------------------------------------------------------
+Running post-build script: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/verify.bsh
+Finished post-build script: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/MJAR-183/verify.bsh

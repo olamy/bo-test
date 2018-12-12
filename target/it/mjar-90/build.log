@@ -1,0 +1,816 @@
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" 
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T04:41:47+10:00)
+Maven home: /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3
+Java version: 1.8.0_192, vendor: Oracle Corporation, runtime: /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre
+Default locale: en_AU, platform encoding: UTF-8
+OS name: "mac os x", version: "10.14.1", arch: "x86_64", family: "mac"
+[DEBUG]   Included /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar
+[DEBUG] Populating class realm maven.ext
+[DEBUG]   Included /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar
+[INFO] [jenkins-event-spy] Jenkins Maven Event Spy is disabled
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < maven.ext
+[DEBUG]   Imported: javax.annotation.security.* < maven.ext
+[DEBUG]   Imported: javax.enterprise.inject.* < maven.ext
+[DEBUG]   Imported: javax.enterprise.util.* < maven.ext
+[DEBUG]   Imported: javax.inject.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.artifact < maven.ext
+[DEBUG]   Imported: org.apache.maven.classrealm < maven.ext
+[DEBUG]   Imported: org.apache.maven.cli < maven.ext
+[DEBUG]   Imported: org.apache.maven.configuration < maven.ext
+[DEBUG]   Imported: org.apache.maven.exception < maven.ext
+[DEBUG]   Imported: org.apache.maven.execution < maven.ext
+[DEBUG]   Imported: org.apache.maven.execution.scope < maven.ext
+[DEBUG]   Imported: org.apache.maven.lifecycle < maven.ext
+[DEBUG]   Imported: org.apache.maven.model < maven.ext
+[DEBUG]   Imported: org.apache.maven.monitor < maven.ext
+[DEBUG]   Imported: org.apache.maven.plugin < maven.ext
+[DEBUG]   Imported: org.apache.maven.profiles < maven.ext
+[DEBUG]   Imported: org.apache.maven.project < maven.ext
+[DEBUG]   Imported: org.apache.maven.reporting < maven.ext
+[DEBUG]   Imported: org.apache.maven.repository < maven.ext
+[DEBUG]   Imported: org.apache.maven.rtinfo < maven.ext
+[DEBUG]   Imported: org.apache.maven.settings < maven.ext
+[DEBUG]   Imported: org.apache.maven.toolchain < maven.ext
+[DEBUG]   Imported: org.apache.maven.usability < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.* < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.events < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.observers < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.repository < maven.ext
+[DEBUG]   Imported: org.apache.maven.wagon.resource < maven.ext
+[DEBUG]   Imported: org.codehaus.classworlds < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.* < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.component < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.configuration < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.container < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.context < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.logging < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.personality < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < maven.ext
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.* < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.artifact < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.collection < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.deployment < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.graph < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.impl < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.installation < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.metadata < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.repository < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.resolution < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.spi < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.transfer < maven.ext
+[DEBUG]   Imported: org.eclipse.aether.version < maven.ext
+[DEBUG]   Imported: org.fusesource.jansi.* < maven.ext
+[DEBUG]   Imported: org.slf4j.* < maven.ext
+[DEBUG]   Imported: org.slf4j.helpers.* < maven.ext
+[DEBUG]   Imported: org.slf4j.spi.* < maven.ext
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf/settings.xml
+[DEBUG] Reading user settings from /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml
+[DEBUG] Reading global toolchains from /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/olamy/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:jar:99.0: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[maven.ext, parent: ClassRealm[plexus.core, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:jar:99.0
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------< org.apache.maven.plugins:maven-jar-plugin-test-mjar-90 >-------
+[INFO] Building Maven 99.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT/maven-metadata.xml locally installed metadata up-to-date.
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:99.0
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [local.central (file:///Users/olamy/.m2/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [local.central (file:///Users/olamy/.m2/repository, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.3:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir>${basedir}</basedir>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <groups>${groups}</groups>
+  <jvm>${jvm}</jvm>
+  <localRepository>${localRepository}</localRepository>
+  <parallel default-value="false">${parallel}</parallel>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories>${project.pluginArtifactRepositories}</remoteRepositories>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+  <skip>${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <test>${test}</test>
+  <testClassesDirectory>${project.build.testOutputDirectory}</testClassesDirectory>
+  <testFailureIgnore>${maven.test.failure.ignore}</testFailureIgnore>
+  <testSourceDirectory>${project.build.testSourceDirectory}</testSourceDirectory>
+  <threadCount default-value="5">${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useSystemClassLoader default-value="false">${surefire.useSystemClassLoader}</useSystemClassLoader>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:test-jar (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classifier default-value="tests"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip>true</skip>
+  <skipIfEmpty default-value="false"/>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=829127, ConflictMarker.markTime=464711, ConflictMarker.nodeCount=2, ConflictIdSorter.graphTime=439524, ConflictIdSorter.topsortTime=402221, ConflictIdSorter.conflictIdCount=1, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3069935, ConflictResolver.conflictItemCount=1, DefaultDependencyCollector.collectTime=8374350, DefaultDependencyCollector.transformTime=8009072}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:jar:99.0
+[DEBUG]    junit:junit:jar:3.8.1:test
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=46338, ConflictMarker.markTime=66832, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=45444, ConflictIdSorter.topsortTime=16206, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=148546, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=45652610, DefaultDependencyCollector.transformTime=405205}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]   (f) reportDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1321874, ConflictMarker.markTime=170838, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=267985, ConflictIdSorter.topsortTime=36704, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2524137, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=149220469, DefaultDependencyCollector.transformTime=4354068}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:99.0 @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.JAVA_TOOL_OPTIONS=-Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" , java.vendor=Oracle Corporation, env.RUN_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect, env.JENKINS_SERVER_COOKIE=durable-188d236adfe68a2dfac64236da6f0d27, org.jenkinsci.plugins.pipeline.maven.reportsFolder=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.MVN_CMD_DIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, env.SECURITYSESSIONID=186a7, env.DOCKER_HOST=unix:///var/run/docker.sock, env.JAVA_MAIN_CLASS_21299=org.codehaus.plexus.classworlds.launcher.Launcher, os.name=Mac OS X, sun.boot.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/resources.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/rt.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/sunrsasign.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jsse.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jce.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/charsets.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jfr.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/classes, env.TMPDIR=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, env.JOB_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/display/redirect, env.PWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, env.LANG=en_AU.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_192-b12, env.MAVEN_CONFIG=--batch-mode --show-version , env.BUILD_DISPLAY_NAME=#18, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.lbCL8mCwr7/Render, user.name=olamy, env.GOOGLE_APPLICATION_CREDENTIALS=/Users/olamy/dev/sources/open-sources/jetty/jetty9-work-30268db71eb2.json, maven.build.version=Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T04:41:47+10:00), env.USER=olamy, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0xF, env.JAVA_MAIN_CLASS_20221=org.codehaus.plexus.classworlds.launcher.Launcher, maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo, env.PATH=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/bin:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/trunk/bin:/usr/local/bin:/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home//bin:/usr/local/bin:/opt/subversion/bin:/Users/olamy/softs/apache-ant-1.8.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/share/npm/bin:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/mvnsh-master/bin/mvnsh:/Users/olamy/softs/j2objc-2.0/, user.language=en, sun.boot.library.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib, classworlds.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/bin/m2.conf, env.XPC_FLAGS=0x0, java.version=1.8.0_192, user.timezone=, env.NODE_NAME=master, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/endorsed, env.MVN_CMD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/mvn, sun.cpu.isalist=, env.JOB_BASE_NAME=test-invoker-reports, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf, java.class.version=52.0, user.country=AU, env.BUILD_NUMBER=18, java.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre, java.vm.info=mixed mode, env.LOGNAME=olamy, os.version=10.14.1, env.JAVA_MAIN_CLASS_57936=Main, env.HUDSON_COOKIE=25e22a4c-f14c-486a-bc95-7fa7b09fe68f, maven.compiler.target=1.7, env.TERM_PROGRAM_VERSION=421.1, env.GCLOUD_PATH=/Users/olamy/softs/google-cloud-sdk, path.separator=:, java.vm.version=25.192-b12, maven.ext.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect?page=changes, env.JOB_NAME=test-invoker-reports, env.JAVA_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.HUDSON_URL=http://localhost:8080/, env.BUILD_TAG=jenkins-test-invoker-reports-18, user.home=/Users/olamy, env.JENKINS_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.JOB_URL=http://localhost:8080/job/test-invoker-reports/, env.OLDPWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=Apple_Terminal, env.M2_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, library.jansi.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/lib/jansi-native, java.library.path=/Users/olamy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.JENKINS_NODE_COOKIE=9eadad58-4473-4d5c-8496-000e5d9c4899, env.SVN_EDITOR=vi, env.MAVEN_CMD_LINE_ARGS=--batch-mode --show-version  -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, env.HUDSON_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.HUDSON_SERVER_COOKIE=178742daec4cbfd8, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, java.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/boot/plexus-classworlds-2.5.2.jar, env.EXECUTOR_NUMBER=0, env.MAVEN_TERMINATE_CMD=on, env.TERM_SESSION_ID=0BB23795-6D03-4859-8345-D86F41FC55B9, env.JENKINS_MAVEN_AGENT_DISABLED=true, maven.version=3.6.0, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, java.awt.headless=true, env.HOME=/Users/olamy, env.ANT_HOME=/Users/olamy/softs/apache-ant-1.8.2, java.io.tmpdir=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, env.BUILD_URL=http://localhost:8080/job/test-invoker-reports/18/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, env.MAVEN_OPTS=  -Xms1g -Xmx1g -Djava.awt.headless=true -Djava.awt.headless=true -Xmx768m -Xms768m -client -XX:+HeapDumpOnOutOfMemoryError, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.aUN0Mea7nX/Listeners, maven.compiler.source=1.7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/olamy/Library/Java/Extensions:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, user.dir=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, env.MAVEN_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, env.BUILD_ID=18, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.JENKINS_URL=http://localhost:8080/, file.encoding=UTF-8, env.WORKSPACE=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2, env.STAGE_NAME=Build / Test - maven 3.6, java.specification.version=1.8, env.NODE_LABELS=master, env.MAVEN_PROJECTBASEDIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=680256, ConflictMarker.markTime=571648, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=290646, ConflictIdSorter.topsortTime=124838, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3200601, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=245435923, DefaultDependencyCollector.transformTime=4893417}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90
+[DEBUG]   (f) buildDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target
+[DEBUG]   (f) classpathElements = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes]
+[DEBUG]   (f) compileSourceRoots = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]   (f) projectArtifact = org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:jar:99.0
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/java]
+[DEBUG] Classpath: [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes]
+[DEBUG] Output directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/java/Foo.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG] Source roots:
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/java
+[DEBUG] Command line options:
+[DEBUG] -d /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes -classpath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes: -sourcepath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/main/java: -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/generated-sources/annotations -g -nowarn -target 1.7 -source 1.7
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:99.0 @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.JAVA_TOOL_OPTIONS=-Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" , java.vendor=Oracle Corporation, env.RUN_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect, env.JENKINS_SERVER_COOKIE=durable-188d236adfe68a2dfac64236da6f0d27, org.jenkinsci.plugins.pipeline.maven.reportsFolder=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.MVN_CMD_DIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0, env.SECURITYSESSIONID=186a7, env.DOCKER_HOST=unix:///var/run/docker.sock, env.JAVA_MAIN_CLASS_21299=org.codehaus.plexus.classworlds.launcher.Launcher, os.name=Mac OS X, sun.boot.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/resources.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/rt.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/sunrsasign.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jsse.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jce.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/charsets.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/jfr.jar:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/classes, env.TMPDIR=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, env.JOB_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/display/redirect, env.PWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, env.LANG=en_AU.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_192-b12, env.MAVEN_CONFIG=--batch-mode --show-version , env.BUILD_DISPLAY_NAME=#18, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.lbCL8mCwr7/Render, user.name=olamy, env.GOOGLE_APPLICATION_CREDENTIALS=/Users/olamy/dev/sources/open-sources/jetty/jetty9-work-30268db71eb2.json, maven.build.version=Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T04:41:47+10:00), env.USER=olamy, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0xF, env.JAVA_MAIN_CLASS_20221=org.codehaus.plexus.classworlds.launcher.Launcher, maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo, env.PATH=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/bin:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/trunk/bin:/usr/local/bin:/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home//bin:/usr/local/bin:/opt/subversion/bin:/Users/olamy/softs/apache-ant-1.8.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/share/npm/bin:/Users/olamy/softs/google-cloud-sdk/bin:/Users/olamy/softs/maven/mvnsh-master/bin/mvnsh:/Users/olamy/softs/j2objc-2.0/, user.language=en, sun.boot.library.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib, classworlds.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/bin/m2.conf, env.XPC_FLAGS=0x0, java.version=1.8.0_192, user.timezone=, env.NODE_NAME=master, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/endorsed, env.MVN_CMD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/mvn, sun.cpu.isalist=, env.JOB_BASE_NAME=test-invoker-reports, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=5, file.separator=/, java.specification.name=Java Platform API Specification, maven.conf=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/conf, java.class.version=52.0, user.country=AU, env.BUILD_NUMBER=18, java.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre, java.vm.info=mixed mode, env.LOGNAME=olamy, os.version=10.14.1, env.JAVA_MAIN_CLASS_57936=Main, env.HUDSON_COOKIE=25e22a4c-f14c-486a-bc95-7fa7b09fe68f, maven.compiler.target=1.7, env.TERM_PROGRAM_VERSION=421.1, env.GCLOUD_PATH=/Users/olamy/softs/google-cloud-sdk, path.separator=:, java.vm.version=25.192-b12, maven.ext.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar, env.RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/test-invoker-reports/18/display/redirect?page=changes, env.JOB_NAME=test-invoker-reports, env.JAVA_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, env.TERM=xterm-256color, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, env.HUDSON_URL=http://localhost:8080/, env.BUILD_TAG=jenkins-test-invoker-reports-18, user.home=/Users/olamy, env.JENKINS_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.JOB_URL=http://localhost:8080/job/test-invoker-reports/, env.OLDPWD=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, java.specification.vendor=Oracle Corporation, env.TERM_PROGRAM=Apple_Terminal, env.M2_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, library.jansi.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/lib/jansi-native, java.library.path=/Users/olamy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, env.JENKINS_NODE_COOKIE=9eadad58-4473-4d5c-8496-000e5d9c4899, env.SVN_EDITOR=vi, env.MAVEN_CMD_LINE_ARGS=--batch-mode --show-version  -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, env.HUDSON_HOME=/Users/olamy/softs/jenkins/home_maven_invoker, env.HUDSON_SERVER_COOKIE=178742daec4cbfd8, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -X -D maven.repo.local=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/interpolated-settings.xml -D maven.compiler.source=1.7 -D maven.compiler.target=1.7 clean package, java.class.path=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3/boot/plexus-classworlds-2.5.2.jar, env.EXECUTOR_NUMBER=0, env.MAVEN_TERMINATE_CMD=on, env.TERM_SESSION_ID=0BB23795-6D03-4859-8345-D86F41FC55B9, env.JENKINS_MAVEN_AGENT_DISABLED=true, maven.version=3.6.0, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, java.awt.headless=true, env.HOME=/Users/olamy, env.ANT_HOME=/Users/olamy/softs/apache-ant-1.8.2, java.io.tmpdir=/var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/, env.BUILD_URL=http://localhost:8080/job/test-invoker-reports/18/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, env.MAVEN_OPTS=  -Xms1g -Xmx1g -Djava.awt.headless=true -Djava.awt.headless=true -Xmx768m -Xms768m -client -XX:+HeapDumpOnOutOfMemoryError, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.aUN0Mea7nX/Listeners, maven.compiler.source=1.7, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/olamy/Library/Java/Extensions:/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, user.dir=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90, env.MAVEN_HOME=/Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.tasks.Maven_MavenInstallation/maven3, env.BUILD_ID=18, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.JENKINS_URL=http://localhost:8080/, file.encoding=UTF-8, env.WORKSPACE=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2, env.STAGE_NAME=Build / Test - maven 3.6, java.specification.version=1.8, env.NODE_LABELS=master, env.MAVEN_PROJECTBASEDIR=/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90}
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90
+[DEBUG]   (f) buildDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target
+[DEBUG]   (f) classpathElements = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes, /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes, /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.7
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.7
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/java]
+[DEBUG] Classpath: [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar]
+[DEBUG] Output directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/java/FooTest.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/java
+[DEBUG] Command line options:
+[DEBUG] -d /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes -classpath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar: -sourcepath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/java: -s /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/generated-test-sources/test-annotations -g -nowarn -target 1.7 -source 1.7
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.3:test (default-test) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=270528, ConflictMarker.markTime=38698, ConflictMarker.nodeCount=16, ConflictIdSorter.graphTime=26401, ConflictIdSorter.topsortTime=17327, ConflictIdSorter.conflictIdCount=11, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=376333, ConflictResolver.conflictItemCount=16, DefaultDependencyCollector.collectTime=22044637, DefaultDependencyCollector.transformTime=749780}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]    org.apache.maven.surefire:surefire-booter:jar:2.3:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.3:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]             junit:junit:jar:3.8.1:compile
+[DEBUG]             classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.3
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.3
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.3:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.3, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.3:test' with basic configurator -->
+[DEBUG]   (f) basedir = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90
+[DEBUG]   (f) childDelegation = false
+[DEBUG]   (f) classesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]   (f) classpathElements = [/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes, /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes, /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar]
+[DEBUG]   (f) disableXmlReport = false
+[DEBUG]   (f) forkMode = once
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallel = false
+[DEBUG]   (f) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.3:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.3:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.3:compile, commons-lang:commons-lang=commons-lang:commons-lang:jar:2.1:compile, org.codehaus.plexus:plexus-archiver=org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile, junit:junit=junit:junit:jar:3.8.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1-alpha-2:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.1:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0:compile}
+[DEBUG]   (f) printSummary = true
+[DEBUG]   (f) projectArtifactMap = {junit:junit=junit:junit:jar:3.8.1:test}
+[DEBUG]   (f) redirectTestOutputToFile = false
+[DEBUG]   (f) remoteRepositories = [      id: local.central
+      url: file:///Users/olamy/.m2/repository
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (f) reportFormat = brief
+[DEBUG]   (f) reportsDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/surefire-reports
+[DEBUG]   (f) testClassesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG]   (f) testSourceDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/src/test/java
+[DEBUG]   (f) threadCount = 5
+[DEBUG]   (f) trimStackTrace = true
+[DEBUG]   (f) useFile = true
+[DEBUG]   (f) useSystemClassLoader = false
+[DEBUG] -- end configuration --
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.3:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.3:compile (selected for compile)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.1:compile (selected for compile)
+[DEBUG]       commons-lang:commons-lang:jar:2.1:compile (selected for compile)
+[DEBUG]     org.codehaus.plexus:plexus-utils:jar:1.1:compile (selected for compile)
+[DEBUG]     org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile (selected for compile)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.2:compile (removed - nearer found: 1.1)
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile (selected for compile)
+[DEBUG]         org.codehaus.plexus:plexus-utils:jar:1.0.4:compile (removed - nearer found: 1.1)
+[DEBUG]         junit:junit:jar:3.8.1:compile (selected for compile)
+[DEBUG]         classworlds:classworlds:jar:1.1-alpha-2:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-booter/2.3/surefire-booter-2.3.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.3/surefire-api-2.3.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG] Adding to surefire booter test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit:jar:2.3:test (selected for test)
+[DEBUG]     junit:junit:jar:3.8.1:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.3:test (selected for test)
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.1:test (selected for test)
+[DEBUG]       commons-lang:commons-lang:jar:2.1:test (selected for test)
+[DEBUG] Adding to surefire test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-junit/2.3/surefire-junit-2.3.jar
+[DEBUG] Adding to surefire test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG] Adding to surefire test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.3/surefire-api-2.3.jar
+[DEBUG] Adding to surefire test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar
+[DEBUG] Adding to surefire test classpath: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+[DEBUG] Test Classpath :
+[DEBUG]   /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG]   /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]   /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG] Setting system property [localRepository]=[/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo]
+[DEBUG] Setting system property [basedir]=[/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90]
+[DEBUG] Using JVM: /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/bin/java
+[INFO] Surefire report directory: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/surefire-reports
+Forking command line: /Users/olamy/softs/jenkins/home_maven_invoker/tools/hudson.model.JDK/jdk8/jre/bin/java -classpath /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-booter/2.3/surefire-booter-2.3.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/apache/maven/surefire/surefire-api/2.3/surefire-api-2.3.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/junit/junit/3.8.1/junit-3.8.1.jar:/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/local-repo/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar org.apache.maven.surefire.booter.SurefireBooter /var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/surefire741645967195420135tmp /var/folders/lj/91x5yt6x07x79t9297g4s5c40000gp/T/surefire6234939841681539646tmp
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0/pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="/Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2@tmp/withMaven8590bac0" 
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running FooTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2-SNAPSHOT:jar (default-jar) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=150830, ConflictMarker.markTime=89577, ConflictMarker.nodeCount=83, ConflictIdSorter.graphTime=190863, ConflictIdSorter.topsortTime=33465, ConflictIdSorter.conflictIdCount=32, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1368068, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=167878950, DefaultDependencyCollector.transformTime=1873987}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:3.1.2-SNAPSHOT:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:3.3.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:3.7.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.1.0:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.18:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:3.1.2-SNAPSHOT
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:3.3.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:3.7.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.1.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.18
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/classes
+[DEBUG]   (f) finalName = maven-jar-plugin-test-mjar-90-99.0
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:99.0 @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Destination /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/maven-jar-plugin-test-mjar-90-99.0.jar not found.)
+[INFO] Building jar: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/maven-jar-plugin-test-mjar-90-99.0.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding entry Foo.class
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/org.apache.maven.plugins/
+[DEBUG] adding directory META-INF/maven/org.apache.maven.plugins/maven-jar-plugin-test-mjar-90/
+[DEBUG] adding entry META-INF/maven/org.apache.maven.plugins/maven-jar-plugin-test-mjar-90/pom.xml
+[DEBUG] adding entry META-INF/maven/org.apache.maven.plugins/maven-jar-plugin-test-mjar-90/pom.properties
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2-SNAPSHOT:test-jar (default) @ maven-jar-plugin-test-mjar-90 ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:test-jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:3.1.2-SNAPSHOT:test-jar' with basic configurator -->
+[DEBUG]   (f) classifier = tests
+[DEBUG]   (f) finalName = maven-jar-plugin-test-mjar-90-99.0
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target
+[DEBUG]   (f) project = MavenProject: org.apache.maven.plugins:maven-jar-plugin-test-mjar-90:99.0 @ /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@544630b7
+[DEBUG]   (f) skip = true
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) testClassesDirectory = /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/target/test-classes
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[INFO] Skipping packaging of the test-jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.029 s
+[INFO] Finished at: 2018-12-12T16:57:01+10:00
+[INFO] ------------------------------------------------------------------------
+Running post-build script: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/verify.bsh
+Finished post-build script: /Users/olamy/softs/jenkins/home_maven_invoker/workspace/test-invoker-reports@2/target/it/mjar-90/verify.bsh
