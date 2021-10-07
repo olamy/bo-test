@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'linux'
+    }
+
+  }
   stages {
     stage('foo') {
       parallel {
@@ -13,6 +18,12 @@ pipeline {
         stage('hrr') {
           steps {
             writeFile(file: 'foo.txt', text: 'hello')
+          }
+        }
+
+        stage('hello') {
+          steps {
+            sh 'pwd'
           }
         }
 
