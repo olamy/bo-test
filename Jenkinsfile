@@ -6,14 +6,18 @@ pipeline {
         stage('foo') {
           steps {
             sh 'echo \'foo\''
+            echo 'hey'
           }
         }
+
         stage('hrr') {
           steps {
             writeFile(file: 'foo.txt', text: 'hello')
           }
         }
+
       }
     }
+
   }
 }
